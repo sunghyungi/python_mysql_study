@@ -19,7 +19,7 @@ TABLES = {'product': (
     saleCnt INT(11) NOT NULL,
     marginRate INT(11) NOT NULL,
     primary key (no),
-    FOREIGN KEY (code references product (code))
+    FOREIGN KEY (code) references product (code))
     """
 )}
 
